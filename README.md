@@ -33,7 +33,7 @@
 ###
 
 <div>
-  <img src="images/dev.png" alt="developer image" align="right" width="250">
+  <img src="images/dev.png" alt="developer image" align="right" width="200">
   
   <div align="left">
     I'm Hieu from Viet Nam 🇻🇳<br>
@@ -108,6 +108,13 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" height="40" alt="selenium logo"  />
 </div>
 
+<!-- More Information Details Myself -->
+<details>
+<summary> <img src="https://cultofthepartyparrot.com/parrots/hd/laptop_parrot.gif" width="25" height="25"/> More information about me 👋
+</summary> 
+
+<p align="center">
+
 ###
 
 <h3 align="left"> My Stats</h3>
@@ -146,3 +153,4 @@
 </div>
 
 ###
+</detail>
