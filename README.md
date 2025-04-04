@@ -28,7 +28,7 @@
 
 ###
 
-<h3 align="left">👩‍💻  About Me</h3>
+<h3 align="left">About Me</h3>
 
 ###
 
@@ -100,7 +100,7 @@
 
 ###
 
-<h3 align="left">🔥   My Stats :</h3>
+<h3 align="left">My Stats :</h3>
 
 ###
 
@@ -112,23 +112,13 @@
 
 ###
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/pacman-contribution-graph.svg">
-</picture>
-
-###
-
-<div align="center">
-  <img src="https://profile-counter.glitch.me/iZuminnnn/count.svg?"  />
-</div>
+<img src="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/snake.svg" alt="Snake animation" />
 
 ###
 
 <div align="center">
   <a href="https://open.spotify.com/user/31qikfvciiq6iyq7eewupdjbgp2u">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=31qikfvciiq6iyq7eewupdjbgp2u&count=3&unique=false" alt="Spotify recently played"  />
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=31qikfvciiq6iyq7eewupdjbgp2u&count=5" alt="Spotify recently played"  />
   </a>
 </div>
 
