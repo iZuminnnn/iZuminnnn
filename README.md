@@ -24,19 +24,22 @@
 
 ###
 
-<h1 align="center">hey there 👋</h1>
+<h1 align="center">Hey there 👋</h1>
 
 ###
 
-<h3 align="left">About Me</h3>
+<h3 align="left">👨‍💻 About Me</h3>
 
 ###
 
-<p align="left">I'm Hieu from Viet Nam.<br><br>  -  I’m working as a developer, currently focusing on Python and ReactJS, building cool things every day.<br><br>  - I'm currently learning more about AWS, and diving deeper into best practices for secure coding.<br><br>  - In my free time I enjoy experimenting with new tech, playing around with domain management, and occasionally binge-watching a good series. I also tend to work on side projects just for the fun of it!<br><br>Hope this sounds like you! Let me know if you'd like to adjust it!</p>
+<div style="display: flex; align-items: center; gap: 20px;">
+  <p align="left" style="flex: 1;">I'm Hieu from Viet Nam 🇻🇳<br><br>  -  I'm working as a developer, currently focusing on Python and ReactJS, building cool things every day.<br><br>  - I'm currently learning more about AWS, and diving deeper into best practices for secure coding 🔒<br><br>  - In my free time I enjoy experimenting with new tech, playing around with domain management, and occasionally binge-watching a good series. I also tend to work on side projects just for the fun of it!<br><br>Hope this sounds like you! Let me know if you'd like to adjust it!</p>
+  <img src="images/dev.jpg" height="250" alt="developer image" style="border-radius: 50%;" />
+</div>
 
 ###
 
-<h3 align="left">🛠 Language and tools</h3>
+<h3 align="left">🛠️ Language and Tools</h3>
 
 ###
 
@@ -98,17 +101,20 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" height="40" alt="selenium logo"  />
 </div>
 
+###
 
-<!-- More Information Details Myself -->
-<details>
-  <summary> <img src="https://cultofthepartyparrot.com/parrots/hd/laptop_parrot.gif" width="25" height="25"/> More information about me 👋</summary> 
+<h3 align="left">📊 My Stats</h3>
 
 ###
 
-<h3 align="left">My Stats :</h3>
-
-###
-
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=iZuminnnn&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=rose_pine&locale=en&hide_border=false&order=1" height="250" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=iZuminnnn&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=rose_pine&hide_border=false&order=2" height="250" alt="languages graph"  />
+  <div align="center" style="display: flex; justify-content: center; gap: 20px;">
+    <img src="https://streak-stats.demolab.com?user=iZuminnnn&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
+    <img src="images/person.jpg" height="220" width="220" alt="profile picture" style="border-radius: 50%; object-fit: cover; object-position: 0 -60px;" />
+  </div>
+</div>
 
 ###
 
@@ -116,23 +122,14 @@
 
 ###
 
-###
-
-<img src="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/pacman.svg" alt="Pacman animation" />
-
-###
-
-###
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=iZuminnnn&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="250" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=iZuminnnn&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
-  <img src="https://streak-stats.demolab.com?user=iZuminnnn&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/pacman-contribution-graph.svg">
+</picture>
 
 ###
 
-###
 <div align="center">
   <a href="https://open.spotify.com/user/31qikfvciiq6iyq7eewupdjbgp2u">
     <img src="https://spotify-recently-played-readme.vercel.app/api?user=31qikfvciiq6iyq7eewupdjbgp2u&count=5" alt="Spotify recently played"  />
@@ -140,4 +137,3 @@
 </div>
 
 ###
-</details>
