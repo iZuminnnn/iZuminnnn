@@ -28,25 +28,25 @@
 
 ###
 
-<h3 align="left">👨‍💻 About Me</h3>
+<h3 align="left"> About Me</h3>
 
 ###
 
 <div>
-  <img src="images/dev.jpg" alt="developer image" align="right" width="350">
+  <img src="images/dev.png" alt="developer image" align="right" width="250">
   
   <div align="left">
-    I'm Hieu from Viet Nam 🇻🇳<br><br>
-    - I'm working as a developer 👨‍💻, currently focusing on Python 🐍 and ReactJS ⚛️, building cool things every day.<br><br>
-    - I'm currently learning more about AWS ☁️, and diving deeper into best practices for secure coding 🔒<br><br>
-    - In my free time I enjoy experimenting with new tech 🚀, playing around with domain management 🌐, and occasionally binge-watching a good series 🎬. I also tend to work on side projects just for the fun of it! 🎮<br><br>
+    I'm Hieu from Viet Nam 🇻🇳<br>
+    - I'm working as a developer 👨‍💻, currently focusing on Python 🐍 and ReactJS ⚛️, building cool things every day.<br>
+    - I'm currently learning more about AWS ☁️, and diving deeper into best practices for secure coding 🔒<br>
+    - In my free time I enjoy experimenting with new tech 🚀, playing around with domain management 🌐, and occasionally binge-watching a good series 🎬. I also tend to work on side projects just for the fun of it! 🎮<br>
     Hope this sounds like you! Let me know if you'd like to adjust it! 😊
   </div>
 </div>
 
 ###
 
-<h3 align="left">🛠️ Language and Tools</h3>
+<h3 align="left"> Language and Tools</h3>
 
 ###
 
@@ -110,7 +110,7 @@
 
 ###
 
-<h3 align="left">📊 My Stats</h3>
+<h3 align="left"> My Stats</h3>
 
 ###
 
@@ -119,7 +119,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=iZuminnnn&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=rose_pine&hide_border=false&order=2" height="180" alt="languages graph"  />
   <div align="center" style="display: flex; justify-content: center; gap: 20px;">
     <img src="https://streak-stats.demolab.com?user=iZuminnnn&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
-    <img src="images/person.jpg" height="220" width="220" alt="profile picture" style="border-radius: 50%; object-fit: cover; object-position: 0 -60px;" />
+    <img src="images/person.png" height="220" width="220" alt="profile picture"/>
   </div>
 </div>
 
