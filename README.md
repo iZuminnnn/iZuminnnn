@@ -98,9 +98,29 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" height="40" alt="selenium logo"  />
 </div>
 
+
+<!-- More Information Details Myself -->
+<details>
+  <summary> <img src="https://cultofthepartyparrot.com/parrots/hd/laptop_parrot.gif" width="25" height="25"/> More information about me 👋</summary> 
+
 ###
 
 <h3 align="left">My Stats :</h3>
+
+###
+
+
+###
+
+<img src="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/snake.svg" alt="Snake animation" />
+
+###
+
+###
+
+<img src="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/pacman.svg" alt="Pacman animation" />
+
+###
 
 ###
 
@@ -112,10 +132,7 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/snake.svg" alt="Snake animation" />
-
 ###
-
 <div align="center">
   <a href="https://open.spotify.com/user/31qikfvciiq6iyq7eewupdjbgp2u">
     <img src="https://spotify-recently-played-readme.vercel.app/api?user=31qikfvciiq6iyq7eewupdjbgp2u&count=5" alt="Spotify recently played"  />
@@ -123,3 +140,4 @@
 </div>
 
 ###
+</details>
