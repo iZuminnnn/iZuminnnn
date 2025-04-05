@@ -34,6 +34,8 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
+          output_path: dist/pacman-contribution-graph.svg
+          output_path_dark: dist/pacman-contribution-graph-dark.svg
 
       - name: Generate gitartwork.svg
         uses: jasineri/gitartwork@v1
