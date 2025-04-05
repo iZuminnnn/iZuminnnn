@@ -1,4 +1,4 @@
-name: Grid Snake
+name: Grid snake
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ main ]
   schedule:
-    - cron: '0 */6 * * *' # Runs on the 0, 6, 12 and 18th hour.
+    - cron: '0 */12 * * *' # Runs on the 0, 6, 12 and 18th hour.
 
 jobs:
   build:
@@ -23,6 +23,7 @@ jobs:
             dist/grid-snake.svg
             dist/grid-snake-dark.svg?palette=github-dark
         env:
+          # a GitHub token is required to fetch the contribution calendar from GitHub API
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Pull

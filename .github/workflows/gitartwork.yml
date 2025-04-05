@@ -1,38 +1,22 @@
 name: Gitartwork
-
-on:
+on: 
   push:
-    branches: [main]
   pull_request:
-    branches: [main]
   schedule:
-    - cron: "0 */6 * * *" # Runs on the 0, 6, 12 and 18th hour.
-
+    - cron: '0 */12 * * *' # Runs on the 0, 6, 12 and 18th hour.
+  workflow_dispatch:  
 jobs:
   build:
+    name: Make gitartwork SVG
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
-
-      - name: generate gitartwork.svg
-        uses: jasineri/gitartwork@v1
+      - uses: jasineri/gitartwork@v1
         with:
-          user_name: ${{ github.repository_owner }}
-          text: M.HIEU!
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Move gitartwork.svg to dist
-        run: mv gitartwork.svg dist/
-
-      - name: Pull
-        run: git pull origin main
-
-      - uses: stefanzweifel/git-auto-commit-action@v4.15.1
-        with:
-          commit_message: "gitartwork"
-          file_pattern: "dist/*.svg"
-          commit_user_name: github-actions[bot]
-          commit_user_email: github-actions[bot]@users.noreply.github.com
-          commit_author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+           user_name: ${{ github.repository_owner }}
+           text: M.HIEU!
+      - name: Set Git User
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com" 
+      - uses: jasineri/simple-push-action@v1
