@@ -43,7 +43,6 @@ jobs:
         with:
           user_name: ${{ github.repository_owner }}
           text: M.HIEU!
-          output_path: dist/gitartwork.svg
 
       - name: Push animations to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
