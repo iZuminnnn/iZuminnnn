@@ -1,0 +1,37 @@
+name: Grid Snake
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '0 */6 * * *' # Runs on the 0, 6, 12 and 18th hour.
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: generate github-contribution-grid-snake.svg
+        uses: Platane/snk@v3.1.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/grid-snake.svg
+            dist/grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pull
+        run: git pull origin main
+
+      - uses: stefanzweifel/git-auto-commit-action@v4.15.1
+        with:
+          commit_message: "grid snake"
+          file_pattern: 'dist/*.svg'
+          commit_user_name: github-actions[bot]
+          commit_user_email: github-actions[bot]@users.noreply.github.com
+          commit_author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
