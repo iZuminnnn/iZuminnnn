@@ -108,9 +108,9 @@
 
 <img alt="gitartwork" src="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/gitartwork.svg">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/github-snake.svg" />
-  <img alt="github-snake" src="github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/grid-snake.svg" />
+  <img alt="github-snake" src="grid-snake.svg" />
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/pacman-contribution-graph-dark.svg">
