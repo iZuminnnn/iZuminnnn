@@ -2,11 +2,11 @@ name: Grid snake
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
   schedule:
-    - cron: '0 */12 * * *' # Runs on the 0, 6, 12 and 18th hour.
+    - cron: "0 */12 * * *" # Runs on the 0, 6, 12 and 18th hour.
 
 jobs:
   build:
@@ -26,13 +26,10 @@ jobs:
           # a GitHub token is required to fetch the contribution calendar from GitHub API
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Pull
-        run: git pull origin main
-
-      - uses: stefanzweifel/git-auto-commit-action@v4.15.1
+      - name: Push animations to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          commit_message: "grid snake"
-          file_pattern: 'dist/*.svg'
-          commit_user_name: github-actions[bot]
-          commit_user_email: github-actions[bot]@users.noreply.github.com
-          commit_author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
