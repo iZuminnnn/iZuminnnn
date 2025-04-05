@@ -1,4 +1,4 @@
-name: Grid snake
+name: Generate Animations
 
 on:
   push:
@@ -6,7 +6,8 @@ on:
   pull_request:
     branches: [main]
   schedule:
-    - cron: "0 */12 * * *" # Runs on the 0, 6, 12 and 18th hour.
+    - cron: "0 */6 * * *" # Runs on the 0, 6, 12 and 18th hour.
+  workflow_dispatch:
 
 jobs:
   build:
@@ -15,7 +16,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: generate github-contribution-grid-snake.svg
+      - name: Create dist directory
+        run: mkdir -p dist
+
+      - name: Generate snake animation
         uses: Platane/snk@v3.1.0
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -23,8 +27,23 @@ jobs:
             dist/grid-snake.svg
             dist/grid-snake-dark.svg?palette=github-dark
         env:
-          # a GitHub token is required to fetch the contribution calendar from GitHub API
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pacman animation
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate gitartwork
+        uses: jasineri/gitartwork@v1
+        with:
+          user_name: ${{ github.repository_owner }}
+          text: M.HIEU!
+
+      - name: Move gitartwork.svg to dist
+        run: mv gitartwork.svg dist/
 
       - name: Push animations to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
