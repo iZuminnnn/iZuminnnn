@@ -21,6 +21,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Create dist directory
+        run: mkdir -p dist && chmod 777 dist
+
       - name: Generate snake.svg
         uses: Platane/snk@v3
         with:
@@ -34,8 +37,6 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          output_path: dist/pacman-contribution-graph.svg
-          output_path_dark: dist/pacman-contribution-graph-dark.svg
 
       - name: Generate gitartwork.svg
         uses: jasineri/gitartwork@v1
