@@ -2,8 +2,6 @@
   <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
 </div>
 
-###
-
 <div align="center">
   <a href="https://www.linkedin.com/in/hieuminhdev/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
@@ -16,39 +14,32 @@
   </a>
 </div>
 
-###
+
 
 <div align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=iZuminnnn.iZuminnnn&left_color=lightcoral&right_color=darkkhaki"  />
 </div>
 
-###
+
 
 <h1 align="center">Hey there 👋</h1>
 
 ###
-
 <h3 align="left"> About Me</h3>
-
-###
 
 <div>
   <img src="images/dev.png" alt="developer image" align="right" width="200">
   
   <div align="left">
     I'm Hieu from Viet Nam 🇻🇳<br>
-    - I'm working as a developer 👨‍💻, currently focusing on Python 🐍 and ReactJS ⚛️, building cool things every day.<br>
-    - I'm currently learning more about AWS ☁️, and diving deeper into best practices for secure coding 🔒<br>
-    - In my free time I enjoy experimenting with new tech 🚀, playing around with domain management 🌐, and occasionally binge-watching a good series 🎬. I also tend to work on side projects just for the fun of it! 🎮<br>
-    Hope this sounds like you! Let me know if you'd like to adjust it! 😊
+    - I'm working as a developer, currently focusing on Python and ReactJS, building cool things every day.<br>
+    - I'm currently learning more about AWS ☁️, and diving deeper into best practices for secure coding<br>
+    - In my free time I enjoy experimenting with new tech, playing around with domain management, and occasionally binge-watching a good series. I also tend to work on side projects just for the fun of it!<br>
+    Hope this sounds like you! Let me know if you'd like to adjust it!
   </div>
 </div>
 
-###
-
 <h3 align="left"> Language and Tools</h3>
-
-###
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
@@ -115,36 +106,29 @@
 
 <p align="center">
 
-###
+<img alt="gitartwork" src="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/gitartwork.svg">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/pacman-contribution-graph.svg">
+</picture>
 
-<h3 align="left"> My Stats</h3>
+<h3 align="left">Streak Stats</h3>
+<div align="center" style="display: flex; justify-content: center; gap: 20px;">
+  <img src="https://streak-stats.demolab.com?user=iZuminnnn&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
+  <img src="images/person.png" height="220" width="220" alt="profile picture"/>
+</div>
 
-###
-
+<h3 align="left"> GitHub Profile Stats</h3>
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=iZuminnnn&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=rose_pine&locale=en&hide_border=false&order=1" height="180" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=iZuminnnn&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=rose_pine&hide_border=false&order=2" height="180" alt="languages graph"  />
-  <div align="center" style="display: flex; justify-content: center; gap: 20px;">
-    <img src="https://streak-stats.demolab.com?user=iZuminnnn&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
-    <img src="images/person.png" height="220" width="220" alt="profile picture"/>
-  </div>
 </div>
-
-###
-
-<br clear="both">
-
-###
-
-<img src="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/snake.svg" alt="Snake animation" />
-
-###
-
-###
-
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/iZuminnnn/iZuminnnn/output/pacman-contribution-graph-dark.svg">
-
-###
 
 <div align="center">
   <a href="https://open.spotify.com/user/31qikfvciiq6iyq7eewupdjbgp2u">
@@ -152,5 +136,5 @@
   </a>
 </div>
 
-###
+
 </detail>

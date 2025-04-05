@@ -25,12 +25,21 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg?palette=github-dark
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
       - name: Generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
+
+      - name: Generate gitartwork.svg
+        uses: jasineri/gitartwork@v1
+        with:
+          user_name: ${{ github.repository_owner }}
+          text: M.HIEU!
 
       - name: Push animations to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
