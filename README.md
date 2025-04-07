@@ -12,6 +12,9 @@
   <a href="https://t.me/MiinhHieu" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=&color=2CA5E0&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="telegram logo"  />
   </a>
+  <a href="https://buymeacoffee.com/hieuminh" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Buy%20Me%20A%20Coffee&logo=buy-me-a-coffee&label=&color=FFDD00&logoColor=black&labelColor=&style=for-the-badge" height="25" alt="buymeacoffee logo"  />
+  </a>
 </div>
 
 
